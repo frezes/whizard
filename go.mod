@@ -50,7 +50,7 @@ require (
 require (
 	dario.cat/mergo v1.0.1
 	github.com/onsi/ginkgo/v2 v2.22.2
-	golang.org/x/crypto v0.33.0
+	golang.org/x/crypto v0.34.0
 )
 
 require (
