@@ -2,8 +2,6 @@ module github.com/WhizardTelemetry/whizard
 
 go 1.24
 
-toolchain go1.24.0
-
 require (
 	github.com/alecthomas/kong v1.8.1
 	github.com/efficientgo/tools/extkingpin v0.0.0-20220817170617-6c25e3b627dd
@@ -43,7 +41,7 @@ require (
 	k8s.io/component-base v0.32.2
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241210054802-24370beab758
-	sigs.k8s.io/controller-runtime v0.20.2
+	sigs.k8s.io/controller-runtime v0.20.4
 	sigs.k8s.io/yaml v1.4.0
 )
 
