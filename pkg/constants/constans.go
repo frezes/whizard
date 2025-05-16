@@ -127,17 +127,17 @@ const (
 
 const (
 	// The version is the same as thanos mod version
-	DefaultWhizardBaseImage = "thanosio/thanos:v0.33.0"
+	DefaultWhizardBaseImage = "docker.io/thanosio/thanos:v0.38.0"
 	// The version is the same as prometheus-operator mod version
-	DefaultPrometheusConfigReloaderImage = "quay.io/prometheus-operator/prometheus-config-reloader:v0.68.0"
+	DefaultPrometheusConfigReloaderImage = "quay.io/prometheus-operator/prometheus-config-reloader:v0.81.0"
 
-	DefaultEnvoyImage               = "envoyproxy/envoy:v1.20.2"
-	DefaultRulerWriteProxyImage     = "kubesphere/cortex-tenant:v1.12.5"
+	DefaultEnvoyImage               = "docker.io/envoyproxy/envoy:v1.20.2"
+	DefaultRulerWriteProxyImage     = "docker.io/kubesphere/cortex-tenant:v1.12.5"
 	DefaultIngesterTSDBCleanupImage = "bash:5.1.16"
 )
 
-var DefaultWhizardMonitoringGatewayImage = "kubesphere/whizard-monitoring-gateway:" + version.Version
-var DefaultWhizardBlockManagerImage = "kubesphere/whizard-monitoring-block-manager:" + version.Version
+var DefaultWhizardMonitoringGatewayImage = "docker.io/kubesphere/whizard-monitoring-gateway:" + version.Version
+var DefaultWhizardBlockManagerImage = "docker.io/kubesphere/whizard-monitoring-block-manager:" + version.Version
 
 const (
 	GRPCPortName = "grpc"
