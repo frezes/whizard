@@ -21,12 +21,12 @@ require (
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus-community/prom-label-proxy v0.12.1
-	github.com/prometheus-operator/prometheus-operator v0.85.0
+	github.com/prometheus-operator/prometheus-operator v0.87.0
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.87.0
 	github.com/prometheus/client_golang v1.23.2
 	github.com/prometheus/common v0.67.4
 	// Prometheus maps version 3.x.y to tags v0.30x.y.
-	github.com/prometheus/prometheus v0.305.1-0.20250721065454-b09cf6be8d56
+	github.com/prometheus/prometheus v0.307.3
 	github.com/spf13/cobra v1.10.1
 	github.com/spf13/pflag v1.0.10
 	github.com/spf13/viper v1.21.0
@@ -181,7 +181,7 @@ require (
 	github.com/prometheus/alertmanager v0.29.0 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/exporter-toolkit v0.15.0 // indirect
-	github.com/prometheus/otlptranslator v0.0.0-20250620074007-94f535e0c588 // indirect
+	github.com/prometheus/otlptranslator v1.0.0 // indirect
 	github.com/prometheus/procfs v0.17.0 // indirect
 	github.com/prometheus/sigv4 v0.2.1 // indirect
 	github.com/puzpuzpuz/xsync/v3 v3.5.1 // indirect
