@@ -27,7 +27,7 @@ require (
 	github.com/prometheus/common v0.67.4
 	// Prometheus maps version 3.x.y to tags v0.30x.y.
 	github.com/prometheus/prometheus v0.305.1-0.20250721065454-b09cf6be8d56
-	github.com/spf13/cobra v1.10.1
+	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
 	github.com/spf13/viper v1.21.0
 	github.com/thanos-io/thanos v0.40.1
